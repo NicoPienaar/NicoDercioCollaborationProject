@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: #0070f3;
 }
 
 .main {
@@ -113,4 +114,9 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.dribble-Img{
+  max-width:fit-content;
+  max-height: max-content;
 }
