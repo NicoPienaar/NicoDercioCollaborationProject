@@ -16,14 +16,11 @@
     "next": "12.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-<<<<<<< HEAD
     "react-photo-collage": "^1.0.9",
     "styled-components": "^5.3.5",
-    "swiper": "^8.2.1"
-=======
+    "swiper": "^8.2.1",
     "react-icons": "^4.3.1",
     "use-clippy": "^1.0.8"
->>>>>>> f8505f6b0f7805cf7a1190c5fb84c62b5bf343bb
   },
   "devDependencies": {
     "eslint": "8.8.0",
