@@ -65,7 +65,7 @@ export default function Collage() {
       style={{
         minHeight: "65vh",
         display: "flex",
-        // justifyContent: "space-evenly",
+        justifyContent: "center",
         flexWrap: "wrap",
       }}
     >
@@ -73,6 +73,7 @@ export default function Collage() {
         if (index % 2 === 0) {
           return (
             <img
+              className="moving-up"
               src={img.source}
               alt={index}
               key={index}
@@ -87,6 +88,7 @@ export default function Collage() {
         } else {
           return (
             <img
+            className="moving-around"
               src={img.source}
               alt={index}
               key={index}

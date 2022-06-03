@@ -2,7 +2,7 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
+import { Typography, Button } from "@mui/material";
 import Box from "@mui/material/Box";
 import Collage from "../collage";
 
@@ -73,10 +73,18 @@ export default function LabTabs() {
           onChange={handleChange}
           aria-label="basic tabs example"
         >
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
-          <Tab label="Item Four" {...a11yProps(3)} />
+          <Tab
+            sx={{ fontWeight: "600" }}
+            label="Item One"
+            {...a11yProps(0)}
+          ></Tab>
+          <Tab sx={{ fontWeight: "600" }} label="Item Two" {...a11yProps(1)} />
+          <Tab
+            sx={{ fontWeight: "600" }}
+            label="Item Three"
+            {...a11yProps(2)}
+          />
+          <Tab sx={{ fontWeight: "600" }} label="Item Four" {...a11yProps(3)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
