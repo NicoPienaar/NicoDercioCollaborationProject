@@ -24,7 +24,6 @@ background: 'linear-gradient(90deg, #e8ebe5 0%, #d2ebf0 45%, #41f06c 100%)'}}>
           md={6}
           sx={{
             height: "100vh",
-            // background: "red",
             alignItems: "center",
             padding: "48px",
             display: "flex",

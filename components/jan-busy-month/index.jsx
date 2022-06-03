@@ -187,9 +187,7 @@ const styles = {
          height:"100vh",
         // border:'1px solid blue',
         margin:"0 10px",
-      //   background:"rgba(116, 0, 255, 1)",
-      // background:"url('busy.png')",
-      // clipPath:'polygon(24% 54%, 52% 54%, 80% 61%, 95% 69%, 100% 100%, 30% 100%, 0 100%, 3% 64%)',
+
       backgroundSize:"cover",
         color:"white",
         // left:"-415px",
