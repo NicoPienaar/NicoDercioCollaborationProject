@@ -20,7 +20,7 @@ const DevTime = () => {
           lg={12}
           sx={{
             height: "100vh",
-           // background: "#9e9ea7",
+      
           
             alignItems: "center",
             //padding: "48px",
